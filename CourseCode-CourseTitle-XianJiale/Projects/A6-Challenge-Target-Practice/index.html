@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title></title>
+     <style>
+       body{background-color:#333333;}
+       .wrapper{
+         background-color: #e6e6e6;
+         width:700px;
+         margin-left:auto;
+         margin-right: auto;
+         padding: 20px;
+       }
+
+       section{
+         background-color: #ffffff;
+         margin-bottom: 20px;
+       }
+
+       section.section-three{
+         margin-bottom:0px;
+       }
+
+       section{
+         text-align: center;
+         padding: 20px;
+        box-shadow: 5px 10px #c2c2c2;
+       }
+
+       .box{
+         display: inline-block;
+         font-family: Helvetica;
+         width: 150px;
+         height:150px;
+         line-height: 150px;
+         font-size:70px;
+         font-weight:bold;
+         text-align: center;
+         border:solid 10px #6d6d6d;
+         background-color: #c9c9c9;
+         margin:10px;
+
+
+         vertical-align: bottom;
+       }
+
+       .section-three .box{
+
+          border-color:#79c34e;
+          background-color: #13105b;
+          color:#0f520b;
+       }
+
+       .section-two .box.three{
+        transform: rotate(20deg);
+        border: solid 10px red;
+        background-color:pink;
+
+       }
+
+
+
+
+
+       .big{
+         font-size: 100px;
+         color:red;
+       }
+     </style>
+   </head>
+   <body>
+
+     <div class="wrapper">
+
+       <section class="section-one">
+
+        <div class="box one big">1</div>
+        <div class="box two">2</div>
+        <div class="box three">3</div>
+      </section>
+
+      <section class="section-two">
+
+       <div class="box one">1</div>
+       <div class="box two big">2</div>
+       <div class="box three">3</div>
+     </section>
+
+     <section class="section-three">
+
+      <div class="box one">1</div>
+      <div class="box two">2</div>
+      <div class="box three big">3</div>
+    </section>
+  </div>
+
+  </body>
+
+</html>
